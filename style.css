@@ -1,0 +1,35 @@
+/* Basic styling only for readability in the browser; not required by assignment */
+
+body {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 2rem;
+  max-width: 900px;
+}
+section, article, footer {
+  margin-bottom: 2rem;
+}
+img {
+  display: block;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+.info-list li {
+  margin: 0.25rem 0;
+}
+.nutrition {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.small {
+  font-size: 0.95rem;
+  color: #444;
+}
+mark {
+  padding: 0 0.2em;
+}
